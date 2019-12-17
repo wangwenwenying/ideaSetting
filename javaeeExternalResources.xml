@@ -1,0 +1,6 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="http://ehcache.org/ehcache.xsd" location="$USER_HOME$/.IntelliJIdea2019.1/system/extResources/39e8daee_ehcache.xsd" />
+    <ignored-resource url="http://ehcache.org/ehcache.xsd" />
+  </component>
+</application>

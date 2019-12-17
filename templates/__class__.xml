@@ -1,0 +1,11 @@
+<templateSet group="/*class*/">
+  <template name="a" value="** &#10;* @Description: $description$ &#10;* @Param: $params$ &#10;* @return: $returns$ &#10;* @Author: www&#10;* @Date: $date$ &#10;*/ " description="" toReformat="false" toShortenFQNames="true">
+    <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="params" expression="methodParameters()" defaultValue="" alwaysStopAt="true" />
+    <variable name="returns" expression="methodReturnType()" defaultValue="" alwaysStopAt="true" />
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
